@@ -51,3 +51,11 @@ Now, go to [**MongoDB Atlas**](https://www.mongodb.com/cloud/atlas) and create a
 ***
 * Open the command terminal, navigate into the **ExpenseBuddy/client** directory, and run the **`npm start`** command to start the React Development server on PORT 3000.
 * Open the command terminal, navigate into the **ExpenseBuddy/server** directory, and run the **`npm start`** command to start the NodeJS Development server on default PORT 3001. The default port can be changed in the index.js file contained in the **src** folder.
+
+### Screenshots
+
+![1](https://user-images.githubusercontent.com/54185164/130480729-3e10b8e0-a17a-4c2e-9f4d-bc46526c2791.JPG)
+![2](https://user-images.githubusercontent.com/54185164/130480743-387651fc-57b6-4fa0-a166-22d2de0613d8.JPG)
+![3](https://user-images.githubusercontent.com/54185164/130480754-29e938b0-a255-4295-98a1-246b06506d82.JPG)
+![4](https://user-images.githubusercontent.com/54185164/130480768-8d9c1a12-b30a-49b2-abdb-f3944a62e253.JPG)
+![5](https://user-images.githubusercontent.com/54185164/130480779-3a7da307-0de9-407f-8435-3d26de722a0a.JPG)
