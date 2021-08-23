@@ -1,4 +1,5 @@
-![resized](https://user-images.githubusercontent.com/54185164/123970161-830f9f80-d9d6-11eb-9521-4597db17534a.png)
+![expensebuddylogo](https://user-images.githubusercontent.com/54185164/130478352-2b4262c3-9e57-4b40-a562-6aa96bce0aa1.png)
+
 
 
 # ExpenseBuddy
@@ -9,6 +10,7 @@
 A simple expense manager that helps users to track their expenses and view reports.
 
 ### Tech-Stack
+***
 * ReactJS
 * NodeJS
 * MongoDB
@@ -20,7 +22,7 @@ A simple expense manager that helps users to track their expenses and view repor
 Open git bash, and clone this repository by running the following command
 
 ##### `git clone https://github.com/abhineetpandey10/ExpenseBuddy.git`
-\
+
 Now, open the command terminal, navigate into the directory where you cloned this repository using the **`cd`** command, and then hop into the **ExpenseBuddy** directory by using the command **`cd ExpenseBuddy`**
 * Navigate into the **client** folder by using the command **`cd ExpenseBuddy/client`**, and run the command **`npm install`**. This would install all the required dependencies for the client side of the project.
 * Now, navigate into the **server** folder by using the command **`cd ../server`**, and run the command **`npm install`**. 
@@ -29,20 +31,20 @@ You need to create a firebase project and register this webapp on that firebase 
 
 Thereafter, you will get the details of the firebase Config Object from your firebase project.Copy those details, and then in the **client** folder, 
 create a **.env** file, and add the following ***environment variables***
-\
-**`REACT_APP_FIREBASE_API_KEY=apiKey`**
-**`REACT_APP_FIREBASE_AUTH_DOMAIN=authDomain`**
-**`REACT_APP_FIREBASE_PROJECT_ID=projectId`**
-**`REACT_APP_FIREBASE_STORAGE_BUCKET=storageBucket`**
-**`REACT_APP_FIREBASE_MESSAGING_SENDER_ID=messagingSenderId`**
-**`REACT_APP_FIREBASE_APP_ID=appId`**
-\
+
+##### **`REACT_APP_FIREBASE_API_KEY=apiKey`**
+##### **`REACT_APP_FIREBASE_AUTH_DOMAIN=authDomain`**
+##### **`REACT_APP_FIREBASE_PROJECT_ID=projectId`**
+##### **`REACT_APP_FIREBASE_STORAGE_BUCKET=storageBucket`**
+##### **`REACT_APP_FIREBASE_MESSAGING_SENDER_ID=messagingSenderId`**
+##### **`REACT_APP_FIREBASE_APP_ID=appId`**
+
 Now, go to [**MongoDB Atlas**](https://www.mongodb.com/cloud/atlas) and create a free-tier cluster here. From here, you need the ***MongoDB Connection String***. You may look [here](https://docs.mongodb.com/guides/cloud/connectionstring/) to know more on how to get the 
 ***MongoDB Connection String***. Copy the connection string, and then on your local machine inside the **ExpenseBuddy** folder, navigate to the **server** folder and create a
 **.env** file with the following ***environment variables***
-\
-URI=MongoDB_Connection_String
-\
+
+##### **`URI=MongoDB_Connection_String`**
+
 ***Congratulations! You've setup the project on your local machine for development.***
 
 ### Running and Testing the Project
